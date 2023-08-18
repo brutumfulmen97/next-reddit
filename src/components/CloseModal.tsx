@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 
 const CloseModal = () => {
     const router = useRouter();
+
     return (
         <Button
             onClick={() => router.back()}
