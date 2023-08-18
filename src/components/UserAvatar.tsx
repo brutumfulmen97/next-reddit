@@ -1,5 +1,4 @@
 import { Avatar, AvatarProps, AvatarFallback } from "@radix-ui/react-avatar";
-import { Divide } from "lucide-react";
 import { User } from "next-auth";
 import Image from "next/image";
 import { FC } from "react";
