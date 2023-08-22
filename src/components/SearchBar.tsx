@@ -70,9 +70,8 @@ const SearchBar: FC<SearchBarProps> = ({}) => {
                                         router.refresh();
                                     }}
                                     key={subreddit.id}
-                                    value={subreddit.name}
+                                    value={"r/" + subreddit.name}
                                 >
-                                    {subreddit.name}
                                     <Users className="mr-2 h-4 w-4" />
                                     <a href={`/r/${subreddit.name}`}>
                                         r/{subreddit.name}
